@@ -1,3 +1,3 @@
-# FluidTRends Website
+# FluidTrends Website
 
 ## Fluid way of thinking
