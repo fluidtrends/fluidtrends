@@ -11,7 +11,7 @@
   "transitions": ["replace://start"],
   "provisioning": {},
   "theme": {
-    "logoImage": "logo-white.png",
+    "logoImage": "logo.png",
     "logoLightImage": "logo.png",
     "headerColor": "#FF5722",
     "textColor": "#546E7A",
