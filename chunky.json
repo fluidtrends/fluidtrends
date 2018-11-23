@@ -1,18 +1,14 @@
 {
   "name": "fluidtrends",
   "env": "dev",
-  "id": "io.chunky",
+  "id": "com.fluidtrends",
   "androidSdkDir": "~/Library/Android/sdk",
   "sections": {
     "start": {
-      "stack": [
-        "intro"
-      ]
+      "stack": ["intro"]
     }
   },
-  "transitions": [
-    "replace://start"
-  ],
+  "transitions": ["replace://start"],
   "provisioning": {},
   "theme": {
     "logoImage": "logo-white.png",
@@ -36,7 +32,8 @@
   },
   "info": {
     "copyright": "2018",
-    "watermark": "Created with Carmel"
+    "watermark": "Created with Carmel",
+    "title": "FluidTrends"
   },
   "template": "personal"
 }

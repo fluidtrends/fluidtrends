@@ -2,9 +2,21 @@
   "name": "intro",
   "routes": {
     "main": {
-      "title": "Welcome",
+      "title": "Home",
       "icon": "home",
       "path": "/",
+      "extendedMenu": [
+        {
+          "id": "about",
+          "title": "About us",
+          "path": "/about"
+        },
+        {
+          "id": "contact",
+          "title": "Contact Us",
+          "path": "/contact"
+        }
+      ],
       "cover": {
         "image": "cover.r.png",
         "opacity": 0.5,
@@ -20,7 +32,65 @@
           "text": "local://intro",
           "image": "logo.png",
           "textColor": "#37474F"
+        },
+        "pillars": {
+          "source": "benefits",
+          "benefits": [
+            { "text": "local://experience", "image": "tweak.svg" },
+            { "text": "local://leadership", "image": "reputation.svg" },
+            { "text": "local://results", "image": "market.svg" }
+          ],
+          "textColor": "#37474F",
+          "backgroundColor": "#F3FFFF"
         }
+      }
+    },
+    "about": {
+      "title": "About us",
+      "icon": "favorite",
+      "path": "/about",
+      "action": true,
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "About us",
+        "subtitle": "Fluid thinking",
+        "subtitleStyle": {
+          "textAlign": "center",
+          "marginLeft": "150px",
+          "marginRight": "150px"
+        },
+        "type": "default",
+        "image": "mountains.jpg"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "icon": "favorite",
+      "path": "/contact",
+      "action": true,
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Get in touch",
+        "subtitle": "send as an email",
+        "subtitleStyle": {
+          "textAlign": "center",
+          "marginLeft": "150px",
+          "marginRight": "150px"
+        },
+        "type": "default",
+        "image": "mountains.jpg"
       }
     }
   }
