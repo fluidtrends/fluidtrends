@@ -31,7 +31,8 @@
           "source": "summary",
           "text": "local://intro",
           "image": "logo.png",
-          "textColor": "#37474F"
+          "textColor": "#37474F",
+          "animation": "zoom"
         },
         "pillars": {
           "source": "benefits",

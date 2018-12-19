@@ -20,7 +20,7 @@
     "linkHoverBackgroundColor": "#F5F5F5",
     "progressColor": "rgba(50,50,50,0.9)",
     "primaryColor": "#0097A7",
-    "secondaryColor": "#66BB6A",
+    "secondaryColor": "#2196F3",
     "statusBarLight": false,
     "navigationColor": "#FFFFFF",
     "navigationTintColor": "#37474F",
@@ -28,7 +28,9 @@
     "footerTintColor": "#CFD8DC",
     "footerHeaderColor": "#90A4AE",
     "footerColor": "#546E7A",
-    "footerBottomColor": "#37474F"
+    "footerBottomColor": "#37474F",
+    "footerSocialIconsColor": "#CFD8DC",
+    "footerSocialIconsColorHover": "#2196F3"
   },
   "info": {
     "copyright": "2018",
