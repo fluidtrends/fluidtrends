@@ -18,32 +18,72 @@
         }
       ],
       "cover": {
-        "image": "cover.r.png",
-        "opacity": 0.5,
+        "backgroundColor": "#fff",
+        "color": "#2196F3",
+        "opacity": 0,
         "navigation": true,
-        "title": "Fluid Trends",
-        "subtitle": "Fluid thinking",
-        "type": "default",
-        "primaryActionTitle": "Let's do this"
+        "title": "UsingTechnology  To Serve Humanity.",
+        "subtitle": "Not the other way around.",
+        "type": "default"
       },
       "components": {
+        "hello": {
+          "source": "summary",
+          "text": "local://hello",
+          "image": "idancali.jpeg",
+          "textColor": "#37474F",
+          "animation": true,
+          "animationType": "zoom"
+        },
         "intro": {
           "source": "summary",
           "text": "local://intro",
           "image": "logo.png",
           "textColor": "#37474F",
-          "animation": "zoom"
+          "animation": true,
+          "animationType": "bounce",
+          "animationOptions": ["bottom"]
         },
-        "pillars": {
-          "source": "benefits",
-          "animation": "zoom",
-          "benefits": [
-            { "text": "local://experience", "image": "tweak.svg" },
-            { "text": "local://leadership", "image": "reputation.svg" },
-            { "text": "local://results", "image": "market.svg" }
-          ],
+        "features": [
+          {
+            "id": "services",
+            "source": "feature",
+            "text": "local://services",
+            "image": "Studio.png",
+            "animation": true
+          },
+          {
+            "id": "training",
+            "source": "feature",
+            "text": "local://training",
+            "image": "academy.png",
+            "animation": true,
+            "reversed": true
+          },
+          {
+            "id": "experiments",
+            "source": "feature",
+            "text": "local://experiments",
+            "image": "incubator.png",
+            "animation": true
+          }
+        ],
+        "proven": {
+          "source": "summary",
+          "text": "local://proven",
+          "image": "logo.png",
           "textColor": "#37474F",
-          "backgroundColor": "#F3FFFF"
+          "animation": true,
+          "animationType": "bounce",
+          "animationOptions": ["bottom"]
+        },
+        "provenTrack": {
+          "source": "summary",
+          "text": "local://provenTrack",
+          "textColor": "#37474F",
+          "animation": true,
+          "animationType": "bounce",
+          "animationOptions": ["bottom"]
         }
       }
     },
@@ -79,20 +119,15 @@
       "events": {
         "cover": "system://team"
       },
-      "cover": {
-        "backgroundColor": "#61AFE1",
-        "align": "bottom",
-        "opacity": 0.6,
-        "navigation": true,
-        "title": "Get in touch",
-        "subtitle": "send as an email",
-        "subtitleStyle": {
-          "textAlign": "center",
-          "marginLeft": "150px",
-          "marginRight": "150px"
-        },
-        "type": "default",
-        "image": "mountains.jpg"
+      "components": {
+        "contact": {
+          "source": "summary",
+          "text": "local://contact",
+          "image": "idancali.jpeg",
+          "textColor": "#37474F",
+          "animation": true,
+          "animationType": "zoom"
+        }
       }
     }
   }

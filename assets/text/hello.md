@@ -1,0 +1,2 @@
+<br>
+## Fluid Trends was founded in **2010** in **Cluj, Romania** by **I. Dan Calinescu** with the vision of **using technology to serve humanity** - not the other way around. Dan brings **17 years of Digital Product Innovation** experience to Fluid Trends, having worked with numerous startups and global brands including Disney, Warner Brothers, Sony, MapQuest, Namco, THQ, Nielsen, Wattpad, CyberSource, Visa, SDL, ScriptLogic.
