@@ -74,15 +74,15 @@
           "image": "logo.png",
           "textColor": "#37474F",
           "animation": true,
-          "animationType": "rotate",
-          "animationOptions": ["top", "left"]
+          "animationType": "slide",
+          "animationOptions": ["left"]
         },
         "proven-track": {
           "source": "summary",
           "text": "local://provenTrack",
           "textColor": "#37474F",
           "animation": true,
-          "animationType": "bounce",
+          "animationType": "slide",
           "animationOptions": ["right"]
         },
         "home-contact": {
@@ -91,7 +91,7 @@
           "image": "idancali.jpeg",
           "textColor": "#37474F",
           "animation": true,
-          "animationType": "lightspeed",
+          "animationType": "slide",
           "animationOptions": ["left"]
         }
       }
@@ -152,8 +152,8 @@
           "image": "idancali.jpeg",
           "textColor": "#37474F",
           "animation": true,
-          "animationType": "zoom",
-          "animationOptions": ["top"]
+          "animationType": "slide",
+          "animationOptions": ["bottom"]
         }
       }
     },
