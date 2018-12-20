@@ -74,16 +74,25 @@
           "image": "logo.png",
           "textColor": "#37474F",
           "animation": true,
-          "animationType": "bounce",
-          "animationOptions": ["bottom"]
+          "animationType": "rotate",
+          "animationOptions": ["top", "left"]
         },
-        "provenTrack": {
+        "proven-track": {
           "source": "summary",
           "text": "local://provenTrack",
           "textColor": "#37474F",
           "animation": true,
           "animationType": "bounce",
-          "animationOptions": ["bottom"]
+          "animationOptions": ["right"]
+        },
+        "home-contact": {
+          "source": "summary",
+          "text": "local://contact",
+          "image": "idancali.jpeg",
+          "textColor": "#37474F",
+          "animation": true,
+          "animationType": "lightspeed",
+          "animationOptions": ["left"]
         }
       }
     },
@@ -95,20 +104,57 @@
       "events": {
         "cover": "system://team"
       },
-      "cover": {
-        "backgroundColor": "#61AFE1",
-        "align": "bottom",
-        "opacity": 0.6,
-        "navigation": true,
-        "title": "About us",
-        "subtitle": "Fluid thinking",
-        "subtitleStyle": {
-          "textAlign": "center",
-          "marginLeft": "150px",
-          "marginRight": "150px"
+      "components": {
+        "hello": {
+          "source": "summary",
+          "text": "local://hello",
+          "image": "idancali.jpeg",
+          "textColor": "#37474F",
+          "animation": true,
+          "animationType": "zoom"
         },
-        "type": "default",
-        "image": "mountains.jpg"
+        "intro": {
+          "source": "summary",
+          "text": "local://intro",
+          "image": "logo.png",
+          "textColor": "#37474F",
+          "animation": true,
+          "animationType": "bounce",
+          "animationOptions": ["bottom"]
+        },
+        "features": [
+          {
+            "id": "services",
+            "source": "feature",
+            "text": "local://services",
+            "image": "Studio.png",
+            "animation": true
+          },
+          {
+            "id": "training",
+            "source": "feature",
+            "text": "local://training",
+            "image": "academy.png",
+            "animation": true,
+            "reversed": true
+          },
+          {
+            "id": "experiments",
+            "source": "feature",
+            "text": "local://experiments",
+            "image": "incubator.png",
+            "animation": true
+          }
+        ],
+        "about-contact": {
+          "source": "summary",
+          "text": "local://contact",
+          "image": "idancali.jpeg",
+          "textColor": "#37474F",
+          "animation": true,
+          "animationType": "zoom",
+          "animationOptions": ["top"]
+        }
       }
     },
     "contact": {
@@ -120,13 +166,14 @@
         "cover": "system://team"
       },
       "components": {
-        "contact": {
+        "contact-page": {
           "source": "summary",
           "text": "local://contact",
           "image": "idancali.jpeg",
           "textColor": "#37474F",
           "animation": true,
-          "animationType": "zoom"
+          "animationType": "zoom",
+          "animationOptions": ["top"]
         }
       }
     }
