@@ -36,6 +36,7 @@
         },
         "pillars": {
           "source": "benefits",
+          "animation": "zoom",
           "benefits": [
             { "text": "local://experience", "image": "tweak.svg" },
             { "text": "local://leadership", "image": "reputation.svg" },
